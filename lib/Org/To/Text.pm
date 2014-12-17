@@ -9,13 +9,14 @@ use Log::Any '$log';
 our %SPEC;
 $SPEC{org_to_text} = {
     v => 1.1,
+    summary => 'Export Org document to text',
 };
 sub org_to_text {
     [501, "Not yet implemented"];
 }
 
 1;
-# ABSTRACT: Export Org document to text
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
