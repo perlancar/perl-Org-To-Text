@@ -4,7 +4,7 @@ package Org::To::Text;
 # VERSION
 
 use 5.010001;
-use Log::Any '$log';
+use Log::Any::IfLOG '$log';
 
 our %SPEC;
 $SPEC{org_to_text} = {
